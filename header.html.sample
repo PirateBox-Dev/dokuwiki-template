@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="utf-8">
+
+<title>Experiment</title>
+	
+<style media="all">
+.navigation ul {
+margin:0px;
+padding:0px;
+list-style: none;
+}
+.navigation li {
+float: left;
+height:30px;
+margin-left:15px;
+margin-right:15px;
+position: relative;
+}
+.navigation li a {
+text-decoration:none;
+}
+.navigation li a:hover {
+text-decoration:underline;
+}
+.navigation li ul {
+margin:0px;
+padding:0px;
+position: absolute;
+left: -9999px;
+height:30px;
+}
+.navigation li:hover ul
+{
+left: 0;
+width:160px;
+}
+
+</style>
+	
+</head>
+
+<body>
+
+
+<div class="navigation"><ul>
+<li><a href="wiki.piratebox.cc">Home</a>
+<ul>
+</ul>
+</li>
+
+<li><a href="http://forum.daviddarts.com">Forum</a>
+<ul>
+</ul>
+</li>
+
+<li><a href="menu3.html">menu3</a>
+<ul>
+</ul>
+</li>
+
+<li><a href="menu3.html">menu3</a>
+<ul>
+</ul>
+</li>
+
+<li><a href="menu4.html">menu4</a>
+
+<ul>
+<li>sub menu item 1</li>
+<li>sub menu item 2</li>
+<li>sub menu item 3</li>
+<li>sub menu item 4</li>
+</ul>
+</li></ul></div> 
+
+
+</body>
+
+</html>
+
