@@ -57,25 +57,26 @@ if ($cols < 0 || $cols >= 12) {
       <li class="dropdown">
         <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-wrench"></span> HowTos <b class="caret"></b></a>
         <ul class="dropdown-menu">
-          <li><a href=/openwrt:diy>OpenWrt</a></li>
-          <li><a href=/android>Android</a></li>
-          <li><a href=/raspberry_pi:diy>Raspberry Pi(rate)Box</a></li>
-          <li><a href=/laptop>Laptop</a></li>
-          <li><a href=/mods>Mods</a></li> 
-	  <li><a href=/troubleshooting>Troubleshooting</a><li>
+	  <li><a href="/getting_started">Installation</a></li>
+	  <li class="dropdown-header"><a href="/openwrt:diy">OpenWrt</a></li>
+	  <li class="dropdown-header"><a href="/raspberry_pi:diy">RaspberryPi</a></li>
+	  <li class="dropdown-header"><a href="/android">Android</a></li>
+	  <li><a href="/troubleshooting">Troubleshooting</a></li>
+	  <li class="dropdown-header"><a href="/openwrt:troubleshooting">OpenWrt</a></li>
+          <li class="dropdown-header"><a href="/raspberry_pi:troubleshooting">Raspberry Pi</a></li>
+	  <li class="dropdown-header"><a href="/laptop:troubleshooting">Laptop</a></li>
         </ul>
       </li>
-    </ul>
+</ul>
 
 <ul class="nav navbar-nav">
       <li class="dropdown">
-        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-play"></span> Media <b class="caret"></b></a>
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-play"></span> Mods <b class="caret"></b></a>
         <ul class="dropdown-menu">
-          <li><a href=/press>Press</a></li>
-          <li><a href=/photos>Photos</a></li>
-          <li><a href=/videos>Videos</a></li>
-          <li><a href=/audio>Audio</a></li>
-          <li><a href=/logos>Logos</a></li>
+          <li><a href="/mods">Overview</a></li>
+          <li class="dropdown-header"><a href="/openwrt:mods">OpenWrt</a></li>
+          <li class="dropdown-header"><a href="/raspberry_pi:mods">RaspberryPi</a></li>
+          <li class="dropdown-header"><a href="/laptop:mods">Laptop</a></li>
         </ul>
       </li>
     </ul>
@@ -93,12 +94,31 @@ if ($cols < 0 || $cols >= 12) {
 
 <ul class="nav navbar-nav">
       <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-pencil"></span> Development <b class="caret"></b></a>
+        <ul class="dropdown-menu">
+	  <li><a href="/development">Developer Overview</a></li>
+          <li class="dropdown-header"><a href="/source">Source Code</a></li>
+          <li class="dropdown-header"><a href="/development:git_repositories">Github Directory</a></li>
+          <li><a href="/changelog">Changelog</a></li>
+        </ul>
+      </li>
+</ul>
+
+
+<ul class="nav navbar-nav">
+      <li class="dropdown">
         <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-plus"></span> About <b class="caret"></b></a>
         <ul class="dropdown-menu">
-          <li><a href=/faq>FAQ</a></li>
-          <li><a href=/changelog>Changelog</a></li> 
-	  <li><a href=/source>GitHub</a></li>
-          <li><a href=/team>Team</a></li>
+          <li><a href="/faq">FAQ</a></li>
+          <li><a href="/team">Team</a></li>
+          <li><a href="/press">Press</a></li>
+          <li><a href="/media">Media + Logos</a></li>
+	  <li><a href="http://demo.piratebox.cc" target="_blank">Static Demo</a></li>
+<!--          <li class="dropdown-header"><a href=/photos>Photos</a></li>
+          <li class="dropdown-header"><a href=/videos>Videos</a></li>
+          <li class="dropdown-header"><a href=/audio>Audio</a></li>
+          <li><a href=/logos>Logos</a></li>-->
+
         </ul>
       </li>
     </ul>
