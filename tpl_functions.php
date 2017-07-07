@@ -257,7 +257,7 @@ function _tpl_searchform_sidebar($ajax = true, $autocomplete = true) {
 function _tpl_duck_search() {
 
     print '
-<form class="navbar-form navbar-right" action="http://duckduckgo.com/">
+<form class="navbar-form navbar-right" action="https://duckduckgo.com/">
   <div class="form-group">
     <input type="hidden" name="sites" value="daviddarts.com,piratebox.cc,piratebox.aod-rpg.de,piratebox.de">
     <input type="hidden" name="ka" value="h">

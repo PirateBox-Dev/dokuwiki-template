@@ -64,7 +64,6 @@ if ($cols < 0 || $cols >= 12) {
 	  <li><a href="/troubleshooting">Troubleshooting</a></li>
 	  <li class="dropdown-header"><a href="/openwrt:troubleshooting">OpenWrt</a></li>
           <li class="dropdown-header"><a href="/raspberry_pi:troubleshooting">Raspberry Pi</a></li>
-	  <li class="dropdown-header"><a href="/laptop:troubleshooting">Laptop</a></li>
         </ul>
       </li>
 </ul>
@@ -76,7 +75,6 @@ if ($cols < 0 || $cols >= 12) {
           <li><a href="/mods">Overview</a></li>
           <li class="dropdown-header"><a href="/openwrt:mods">OpenWrt</a></li>
           <li class="dropdown-header"><a href="/raspberry_pi:mods">RaspberryPi</a></li>
-          <li class="dropdown-header"><a href="/laptop:mods">Laptop</a></li>
         </ul>
       </li>
     </ul>
