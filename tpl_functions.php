@@ -259,7 +259,7 @@ function _tpl_duck_search() {
     print '
 <form class="navbar-form navbar-right" action="https://duckduckgo.com/">
   <div class="form-group">
-    <input type="hidden" name="sites" value="daviddarts.com,piratebox.cc,piratebox.aod-rpg.de,piratebox.de">
+    <input type="hidden" name="sites" value="piratebox.cc,forum.piratebox.cc">
     <input type="hidden" name="ka" value="h">
     <input type="hidden" name="k7" value="#fafafa">
     <input type="hidden" name="kj" value="#222222">
