@@ -107,6 +107,7 @@ if ($cols < 0 || $cols >= 12) {
       <li class="dropdown">
         <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-plus"></span> About <b class="caret"></b></a>
         <ul class="dropdown-menu">
+          <li><a href="/goals">Project goals</a></li>
           <li><a href="/faq">FAQ</a></li>
           <li><a href="/team">Team</a></li>
           <li><a href="/press">Press</a></li>
